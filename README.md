@@ -68,6 +68,7 @@ Joblib
 
 📂 Project Structure
 
+```text
 Return_fraud_detection_app/
 │
 ├── app.py
@@ -81,7 +82,7 @@ Return_fraud_detection_app/
 ├── scaler.pkl
 ├── test_clean.csv
 ├── requirements.txt
-
+```
 👩‍💻 Developed By
 
 Shivani Singh
