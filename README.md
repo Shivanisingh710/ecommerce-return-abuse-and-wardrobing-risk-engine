@@ -68,20 +68,32 @@ Joblib
 
 📂 Project Structure
 
+## 📂 Project Structure
+
 ```text
-Return_fraud_detection_app/
+ecommerce-return-abuse-and-wardrobing-risk-engine/
 │
-├── app.py
-├── pages/
-│   ├── 1_Dashboard.py
-│   ├── 2_Customer_Prediction.py
-│   └── 3_Customer_Insights.py
+├── Return_abuse_dataset/
+│   ├── ECommerce_Return_Dataset_Clean.csv
+│   ├── Test.xlsx
+│   └── Test_clean.csv
 │
-├── gbc_Fraud_Detection.pkl
-├── kmeans.pkl
-├── scaler.pkl
-├── test_clean.csv
-├── requirements.txt
+├── Return_fraud_detection_app/
+│   ├── pages/
+│   │   ├── 1_Dashboard.py
+│   │   ├── 2_Customer_Prediction.py
+│   │   └── 3_Customer_Insights.py
+│   │
+│   ├── app.py
+│   ├── gbc_Fraud_Detection.pkl
+│   ├── kmeans.pkl
+│   ├── scaler.pkl
+│   ├── test_clean.csv
+│   └── requirements.txt
+│
+├── Fraud_Return_Prediction.ipynb
+    |── Model Development (Clustering & Classification)
+
 ```
 👩‍💻 Developed By
 
